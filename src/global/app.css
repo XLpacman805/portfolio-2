@@ -9,6 +9,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('../assets/bulma/css/bulma.min.css');
 
 body {
   margin: 0px;

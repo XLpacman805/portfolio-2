@@ -3,14 +3,13 @@ import { Component, h } from '@stencil/core';
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css',
-  shadow: true,
 })
 export class AppRoot {
   render() {
     return (
       <div>
         <header>
-          <h1>johnnyMezaDev.com</h1>
+          <h1 class="is-size-3  has-text-weight-medium">johnnyMezaDev.com</h1>
         </header>
 
         <main>
