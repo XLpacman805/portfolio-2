@@ -3,14 +3,22 @@ import { Component, h } from '@stencil/core';
 @Component({
   tag: 'app-home',
   styleUrl: 'app-home.css',
-  shadow: true,
+  shadow: false,
 })
 export class AppHome {
   render() {
     return (
-      <div class="app-home">
+      <div class="app-home container">
+        <section>
+          <figure class="image profile-image">
+            <img class="is-rounded" src="https://avatars3.githubusercontent.com/u/12060907?s=460&u=3d181b7329ff78b29de17559227ca9705c0bad68&v=4" />
+          </figure>
+          <h2> Web Developer | Software Engineer | UI Engineer | ES6 Javascript | NodeJS | Express | React | NodeJS | Salesforce B2C Commerce Cloud </h2>
+        </section>
+
+        <br />
+
         <section class="about-me">
-          <img src="https://avatars3.githubusercontent.com/u/12060907?s=460&u=3d181b7329ff78b29de17559227ca9705c0bad68&v=4"></img>
           <h2>About Me</h2>
           <p>
             Currently I'm a senior frontend developer working at LiveArea CX. We're a Salesforce implementation partner, and we develop for all of the major ecommerce platforms as well. I've built custom cartridges and custom business manager cartridges using Javascript, HTML, CSS, ES6, Web Components, CommonJS (similar to Express), SFRA, and B2C Commerce Script.
