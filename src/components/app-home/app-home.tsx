@@ -8,17 +8,18 @@ import { Component, h } from '@stencil/core';
 export class AppHome {
   render() {
     return (
-      <div class="app-home container">
-        <section>
-          <figure class="image profile-image">
-            <img class="is-rounded" src="https://avatars3.githubusercontent.com/u/12060907?s=460&u=3d181b7329ff78b29de17559227ca9705c0bad68&v=4" />
-          </figure>
-          <h2> Web Developer | Software Engineer | UI Engineer | ES6 Javascript | NodeJS | Express | React | NodeJS | Salesforce B2C Commerce Cloud </h2>
+      <div class="app-home">
+        <section class="container">
+          <div class="columns is-centered">
+            <div class="column"></div>
+            <div class="column">A</div>
+            <div class="column is-three-quarters">B</div>
+         </div>
         </section>
 
         <br />
 
-        <section class="about-me">
+        <section class="about-me container">
           <h2>About Me</h2>
           <p>
             Currently I'm a senior frontend developer working at LiveArea CX. We're a Salesforce implementation partner, and we develop for all of the major ecommerce platforms as well. I've built custom cartridges and custom business manager cartridges using Javascript, HTML, CSS, ES6, Web Components, CommonJS (similar to Express), SFRA, and B2C Commerce Script.
