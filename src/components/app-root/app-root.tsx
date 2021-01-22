@@ -9,7 +9,7 @@ export class AppRoot {
     return (
       <div>
         <header>
-          <h1 class="is-size-3  has-text-weight-medium">johnnyMezaDev.com</h1>
+          <h2 class="is-size-3  has-text-weight-medium">johnnyMezaDev.com</h2>
         </header>
 
         <main>
