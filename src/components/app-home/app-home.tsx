@@ -10,11 +10,13 @@ export class AppHome {
     return (
       <div class="app-home">
         <br />
-        <section class="flex-container flex-align-center flex-nowrap contact-card">
-          <div class="profile-image">
-            <img class="img-responsive img-circle" src="https://avatars.githubusercontent.com/u/12060907?s=460&u=3d181b7329ff78b29de17559227ca9705c0bad68&v=4"></img>
+        <section>
+          <div class="flex-container flex-align-center flex-nowrap contact-card">
+            <div class="profile-image">
+              <img class="img-responsive img-circle" src="https://avatars.githubusercontent.com/u/12060907?s=460&u=3d181b7329ff78b29de17559227ca9705c0bad68&v=4"></img>
+            </div>
+            <h1>Full Stack Web Developer & Software Engineer</h1>
           </div>
-          <h1>Full Stack Web Developer & Software Engineer</h1>
         </section>
 
         <br />

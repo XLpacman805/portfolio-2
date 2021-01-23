@@ -43,11 +43,22 @@
     background-color: #fefb02;
     color: black;
     padding: 4%;
+    clip-path: polygon(8% 5%, 10% 0%, 100% 0, 100% 90%, 79% 90%, 75% 100%, 0 100%, 0 5%)
 }
 
 .contact-card h1 {
     width: 70%;
     padding-left: 4%
+}
+
+.about-me {
+    background-color: #fefb02;
+    color: black;
+    padding: 4%;
+}
+
+section {
+    outline: 1px solid #fefb02;
 }
 
 @media only screen and (min-width: 768px) {
