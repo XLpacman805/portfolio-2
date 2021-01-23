@@ -1,10 +1,18 @@
 .profile-image {
-    width: 56%;
+    width: 30%;
 }
 
 .flex-container {
     display: flex;
-    flex-flow: row wrap;;
+    flex-flow: row wrap;
+}
+
+.flex-nowrap {
+    flex-flow: nowrap;
+}
+
+.flex-align-center {
+    align-items: center;
 }
 
 .center {
@@ -28,6 +36,18 @@
 
 .img-circle {
     border-radius: 50%;
+    border: 3px solid black;
+}
+
+.contact-card {
+    background-color: #fefb02;
+    color: black;
+    padding: 4%;
+}
+
+.contact-card h1 {
+    width: 70%;
+    padding-left: 4%
 }
 
 @media only screen and (min-width: 768px) {
